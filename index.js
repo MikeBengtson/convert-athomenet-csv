@@ -31,7 +31,7 @@ fs.createReadStream(path.resolve(__dirname, args[0]))
           eraseFields(newRow, row, "Resident 2 Last Name");
           
           newRow["First Name"] = newRow["Resident 2 First Name"];
-          eraseFields(newRow, row, "RResident 2 First Name");
+          eraseFields(newRow, row, "Resident 2 First Name");
           
           newRow["Work Phone"] = newRow["Resident 2 Work Phone"];
           eraseFields(newRow, row, "Resident 2 Work Phone");
