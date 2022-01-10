@@ -1,0 +1,14 @@
+{
+  "name": "convert-athomenet-csv",
+  "version": "1.0.0",
+  "description": "Pre-process address book dump from athomenet by converting \"resident2\" entries to primary entries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Bengtson",
+  "license": "ISC",
+  "dependencies": {
+    "fast-csv": "^4.3.6"
+  }
+}
